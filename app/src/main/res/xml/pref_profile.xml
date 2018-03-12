@@ -1,0 +1,42 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <EditTextPreference
+        android:defaultValue="@string/user_first_name"
+        android:key="pref_profile_first_name"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_profile_first_name" />
+    <EditTextPreference
+        android:defaultValue="@string/user_last_name"
+        android:key="pref_profile_last_name"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_profile_last_name" />
+    <EditTextPreference
+        android:defaultValue="@string/user_email"
+        android:key="pref_profile_email"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_profile_email" />
+    <EditTextPreference
+        android:defaultValue="@string/user_nickname"
+        android:key="pref_profile_nickname"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_profile_nickname" />
+    <EditTextPreference
+        android:defaultValue="@string/user_password"
+        android:key="pref_profile_password"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_profile_password" />
+
+
+
+</PreferenceScreen>

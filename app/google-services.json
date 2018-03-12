@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "3464796178",
+    "firebase_url": "https://messenger-183a9.firebaseio.com",
+    "project_id": "messenger-183a9",
+    "storage_bucket": "messenger-183a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3464796178:android:43fc9ebb6a17fc57",
+        "android_client_info": {
+          "package_name": "ru.ssau.sanya.messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3464796178-ia5khdba4cdd5qquo18h7phsak7pkvnh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.ssau.sanya.messenger",
+            "certificate_hash": "d830ce5ab59d3349037f9eb1f0955b22abb757eb"
+          }
+        },
+        {
+          "client_id": "3464796178-gbcfv446su6qckbdug7vg87hea2r3efl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5Tcnyd0Ak2P_natRI6ybzvTw6iOdvFfc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3464796178-gbcfv446su6qckbdug7vg87hea2r3efl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,50 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="avatar_contacts_switch"
+        android:summary="@string/pref_description_avatar_contact_switch"
+        android:title="@string/pref_title_avatar_contact_switch" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="avatar_messages_switch"
+        android:summary="@string/pref_description_avatar_messages_switch"
+        android:title="@string/pref_title_avatar_messages_switch" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+        android:key="background_chat_color"
+        android:title="@string/background_chat_color"
+        android:summary="@string/background_chat_color"
+        android:defaultValue="@color/colorPrimary"
+    />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+        android:key="text_chat_color"
+        android:title="@string/text_chat_color"
+        android:summary="@string/text_chat_color"
+        android:defaultValue="@color/colorPrimary"
+    />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+        android:key="background_messages_color"
+        android:title="@string/background_messages_color"
+        android:summary="@string/background_messages_color"
+        android:defaultValue="@color/colorPrimary"
+    />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+        android:key="text_messages_color"
+        android:title="@string/text_messages_color"
+        android:summary="@string/text_messages_color"
+        android:defaultValue="@color/colorPrimary"
+    />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+        android:key="background_contacts_color"
+        android:title="@string/background_contacts_color"
+        android:summary="@string/background_contacts_color"
+        android:defaultValue="@color/colorPrimary"
+    />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+        android:key="text_contacts_color"
+        android:title="@string/text_contacts_color"
+        android:summary="@string/text_contacts_color"
+        android:defaultValue="@color/colorPrimary"
+    />
+
+</PreferenceScreen>

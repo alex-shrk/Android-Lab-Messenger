@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+
+    <ImageView
+        android:id="@+id/msg_contact_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:gravity="start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/emoji_1f40d"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/msg_contact_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/msg_contact_avatar"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintStart_toEndOf="@+id/msg_contact_avatar"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlHardcoded"
+        tools:text="alexander" />
+
+    <TextView
+        android:id="@+id/msg_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:gravity="end"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        tools:layout_height="wrap_content"
+        tools:text="000000000000000000" />
+
+
+    <TextView
+        android:id="@+id/msg_last_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/msg_time"
+        android:layout_toEndOf="@+id/msg_contact_avatar"
+        android:gravity="center_vertical|fill_horizontal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toStartOf="@+id/msg_time"
+        app:layout_constraintStart_toStartOf="@+id/msg_contact_name"
+        app:layout_constraintTop_toBottomOf="@+id/msg_contact_name"
+        tools:text="hiasdasdasdasda" />
+
+
+
+
+
+
+</RelativeLayout>
